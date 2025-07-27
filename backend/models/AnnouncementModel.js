@@ -4,7 +4,7 @@ const announcementSchema = new mongoose.Schema({
   title: String,
   message: String,
   createdBy: { type: mongoose.Schema.Types.ObjectId, ref: "Users" },
-  createdAt: { type: Date, default: Date.now ,expires: 43200 },
+  createdAt: { type: Date, default: Date.now },
   seenBy: [{ type: mongoose.Schema.Types.ObjectId, ref: "Users" }]
 });
 
