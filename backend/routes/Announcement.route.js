@@ -1,5 +1,5 @@
 import express from "express";
-import { Announcement } from "../models/announcementModel.js";
+import { Announcement } from "../models/AnnouncementModel.js";
 
 const router = express.Router();
 
